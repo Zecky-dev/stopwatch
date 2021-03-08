@@ -1,9 +1,5 @@
 /* Javascript Doc */
 
-// Zaman değişkenleri alınacak
-// Zaman değişkenleri = saniye , dakika , saat
-// Zaman değişkenlerinin değerleri 0 olarak verilecek
-// Saniye her 1 saniyede 1 artacak 60 saniyeye ulaştığı zaman saniye değişkeni 0'a eşitlenip dakika 1 arttırılacak dakika 60 a ulaştığında da saat 1 artacak..
 
 // Javascript values
 
