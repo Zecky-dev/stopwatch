@@ -1,0 +1,71 @@
+/* CSS Doc */
+
+body{
+    background-color: darkslategray;
+    margin:0px;
+    padding: 0px;
+}
+
+.box-watch{
+    background-color: firebrick;
+    padding: 10px;
+    display: block;
+}
+
+.box-watch-inside{
+    display: flex;
+    margin-top:20px;
+}
+
+.time{
+    color:white;
+    font-size: 25px;
+}
+
+.time *::after{
+    content: ":";
+}
+
+.time *:last-child::after{
+    content: '';
+}
+
+.time *{
+    text-align: center;
+}
+
+.time-inside{
+    text-align: center;
+}
+
+.box-watch h1{
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    border:4px double black;
+    padding: 5px;
+    margin:15px;
+}
+
+.button{
+    padding: 10px;
+    width: 100px;
+    border: 1px solid white;
+    background: transparent;
+    color: white;
+    border-radius: 4px;
+    flex-grow: 1;
+    transition: all .3s ease;
+    margin:0px 5px;
+}
+
+.button:hover{
+    cursor:pointer;
+    background-color: white;
+    color:black;
+}
+
+.button:active{
+    border:1px solid black;
+}
+
